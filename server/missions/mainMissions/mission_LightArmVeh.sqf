@@ -33,7 +33,7 @@ _vehicleAmmo = 1;
 
 if (["_GMG_", _vehicleClass] call fn_findString != -1) then
 {
-	_vehicleAmmo = 0.5;
+	_vehicleAmmo = 0.1;
 };
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage

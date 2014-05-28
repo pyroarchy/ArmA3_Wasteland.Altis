@@ -62,9 +62,9 @@ lightMilitaryVehicles =
 mediumMilitaryVehicles = 
 [
 //	"I_Truck_02_Fuel_F",
-//	"O_Truck_02_Fuel_F",
+	"O_Truck_02_Fuel_F",
 //	"I_Truck_02_medical_F",
-//	"O_Truck_02_medical_F",
+	"O_Truck_02_medical_F",
 	"B_MRAP_01_F",
 	"O_MRAP_02_F",
 	"I_MRAP_03_F"
@@ -73,16 +73,16 @@ mediumMilitaryVehicles =
 //Water Vehicles - Random Spawns
 waterVehicles =
 [
-//	"B_Lifeboat",
+	"B_Lifeboat",
 //	"O_Lifeboat",
 //	"C_Rubberboat",
-//	"B_SDV_01_F",
+	"B_SDV_01_F",
 //	"O_SDV_01_F",
 //	"I_SDV_01_F",
 //	"B_Boat_Transport_01_F",
-//	"O_Boat_Transport_01_F",
+	"O_Boat_Transport_01_F",
 //	"I_Boat_Transport_01_F",
-//	"I_G_Boat_Transport_01_F",
+	"I_G_Boat_Transport_01_F",
 	"B_Boat_Armed_01_minigun_F",
 	"O_Boat_Armed_01_hmg_F",
 	"I_Boat_Armed_01_minigun_F",
@@ -141,10 +141,10 @@ objectList =
 //Object List - Random Spawns.
 staticWeaponsList = 
 [
-	"B_Mortar_01_F",
-	"O_Mortar_01_F",
-	"I_Mortar_01_F",
-	"I_G_Mortar_01_F"
+//	"B_Mortar_01_F",
+//	"O_Mortar_01_F",
+//	"I_Mortar_01_F",
+//	"I_G_Mortar_01_F"
 ];
 
 //Object List - Random Helis.
@@ -170,7 +170,7 @@ vehicleWeapons =
 //	"hgun_P07_F",
 //	"hgun_Rook40_F",
 //	"hgun_ACPC2_F",
-//	"arifle_SDAR_F",
+	"arifle_SDAR_F",
 	"SMG_01_F",	// Vermin .45 ACP
 	"SMG_02_F",	// Sting 9mm
 	"hgun_PDW2000_F",

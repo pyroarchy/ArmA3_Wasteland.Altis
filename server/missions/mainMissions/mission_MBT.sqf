@@ -40,7 +40,7 @@ switch (_vehicleClass) do
 		_vehicle removeMagazinesTurret ["16Rnd_120mm_HE_shells_Tracer_Red", [0]];
 		_vehicle removeMagazinesTurret ["2000Rnd_65x39_belt", [0]];
 		_vehicle addMagazineTurret ["2000Rnd_65x39_belt", [0]];
-		_vehicle setVehicleAmmo 0.5;
+		_vehicle setVehicleAmmo 0.1;
 		_vehicle addMagazineTurret ["16Rnd_120mm_HE_shells_Tracer_Red", [0]];
 		reload _vehicle;
 	};
@@ -49,7 +49,7 @@ switch (_vehicleClass) do
 		_vehicle removeMagazinesTurret ["16Rnd_120mm_HE_shells_Tracer_Green", [0]];
 		_vehicle removeMagazinesTurret ["450Rnd_127x108_Ball", [0,0]];
 		_vehicle removeMagazinesTurret ["SmokeLauncherMag", [0,0]];
-		_vehicle setVehicleAmmo 0.5;
+		_vehicle setVehicleAmmo 0.1;
 		_vehicle addMagazineTurret ["16Rnd_120mm_HE_shells_Tracer_Red", [0]];
 		_vehicle addMagazineTurret ["450Rnd_127x108_Ball", [0,0]];
 		_vehicle addMagazineTurret ["SmokeLauncherMag", [0,0]];

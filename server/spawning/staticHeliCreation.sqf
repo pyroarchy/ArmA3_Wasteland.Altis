@@ -27,7 +27,7 @@ _spawnPos = _this select 1;
 	_currHeli setVelocity [0,0,0.01];
 	
 	_currHeli setFuel (0.1 + random 0.2);
-	_currHeli setVehicleAmmo 0.5;
+	_currHeli setVehicleAmmo 0.3;
 	// _currHeli spawn cleanVehicleWreck;
 	_currHeli setDir (random 360);
 	
