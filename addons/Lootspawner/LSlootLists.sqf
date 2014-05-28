@@ -40,8 +40,8 @@ lootWeapon_list = [
 "SMG_01_F",							// Vermin .45 ACP
 "SMG_02_F",							// Sting 9mm
 "srifle_EBR_F",
-"srifle_GM6_F",
-"srifle_LRR_F"
+//"srifle_GM6_F",
+//"srifle_LRR_F"
 ]],[ 2, [						// INDUSTRIAL
 "arifle_Mk20C_F",
 "arifle_Mk20_F",
@@ -58,8 +58,8 @@ lootWeapon_list = [
 "arifle_MXM_F",
 "arifle_MX_GL_F",
 "Rangefinder",
-"srifle_GM6_F",
-"srifle_LRR_F"
+//"srifle_GM6_F",
+//"srifle_LRR_F"
 ]]];
 
 //here place magazines, weaponattachments and bodyitems(ex.: ItemGPS, ItemMap, Medikit, FirstAidKit, Binoculars, ...)
@@ -118,8 +118,8 @@ lootMagazine_list = [
 "3Rnd_SmokeRed_Grenade_shell",
 "3Rnd_SmokeYellow_Grenade_shell",
 "3Rnd_Smoke_Grenade_shell",*/
-"5Rnd_127x108_Mag",
-"7Rnd_408_Mag",
+//"5Rnd_127x108_Mag",
+//"7Rnd_408_Mag",
 "9Rnd_45ACP_Mag",
 "9Rnd_45ACP_Mag",
 "APERSBoundingMine_Range_Mag",
@@ -156,8 +156,8 @@ lootMagazine_list = [
 "30Rnd_65x39_caseless_mag",
 "30Rnd_65x39_caseless_green",
 "30Rnd_65x39_caseless_green",
-"5Rnd_127x108_Mag",
-"7Rnd_408_Mag"
+//"5Rnd_127x108_Mag",
+//"7Rnd_408_Mag"
 ]]];
 
 //here place hats, glasses, clothes, uniforms, vests
