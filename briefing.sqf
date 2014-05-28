@@ -12,8 +12,8 @@ player createDiaryRecord ["changelog",
 [
 "0.9g",
 "
-<br/> [Added] - Vehicle stores
-<br/> [Added] - New lootspawner by Na_Palm, stuff in ALL buildings
+<br/> [Added+Disabled] - Vehicle stores. *EDIT*:Disabled until further notice.
+<br/> [Added+Editing] - New lootspawner by Na_Palm, stuff in ALL buildings *EDIT*:Trying to spawn weapons in containers and vehicles to help server stress.
 <br/> [Added] - New jets and truck added in A3 v1.14
 <br/> [Added] - New AAF vehicles added in A3 v1.08
 <br/> [Added] - New camos for Mk20 and MX in gunstores
