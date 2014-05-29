@@ -25,7 +25,7 @@ _plane = createVehicle [_planeType, _pos, [], 0, "None"];
 
 _plane setPosATL [_pos select 0, _pos select 1, ((getPosATL _plane) select 2) + 0.01];
 _plane setVelocity [0,0,0.01];
-_plane setFuel (0.4 + random 0.2);
+_plane setFuel (0.1 + random 0.2);
 
 _plane setDir _markerDir;
 

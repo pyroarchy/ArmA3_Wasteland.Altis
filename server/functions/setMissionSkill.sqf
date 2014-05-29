@@ -16,14 +16,15 @@ if (["A3W_missionsDifficulty"] call isConfigOn) then
 }
 else
 {
-	_skill = 0.33;
-	_accuracy = 0.75;
+	_skill = 0.41;
+	_accuracy = 0.60;
 };
 
 _unit allowFleeing 0;
 _unit setSkill _skill;
 _unit setSkill ["aimingAccuracy", (_unit skill "aimingAccuracy") * _accuracy];
 _unit setSkill ["courage", 1];
+_unit setSkill ["aimingSpeed", 0.1];
 
 // Available skills are explained here: http://community.bistudio.com/wiki/AI_Sub-skills
 // Skill values are between 0 and 1

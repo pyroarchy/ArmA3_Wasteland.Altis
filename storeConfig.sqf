@@ -58,20 +58,20 @@ rifleArray = compileFinal str
 	// Markman Rifles
 	["MXM Rifle", "arifle_MXM_F", 300],
 	["MXM Rifle (Black)", "arifle_MXM_Black_F", 300],
-	["DMR Rifle", "srifle_DMR_01_F", 350],
-	["Mk18 ABR Rifle", "srifle_EBR_F", 400],
+	["DMR Rifle", "srifle_DMR_01_F", 750],
+	["Mk18 ABR Rifle", "srifle_EBR_F", 900],
 
 	// Sniper Rifles
-	["M320 LRR Sniper", "srifle_LRR_SOS_F", 1000],
-	["GM6 Lynx Sniper", "srifle_GM6_SOS_F", 1000]
+	["M320 LRR Sniper", "srifle_LRR_SOS_F", 2000],
+	["GM6 Lynx Sniper", "srifle_GM6_SOS_F", 2000]
 ];
 
 lmgArray = compileFinal str
 [
 	["MX SW LMG", "arifle_MX_SW_F", 300],
 	["MX SW LMG (Black)", "arifle_MX_SW_Black_F", 300],
-	["Mk200 LMG", "LMG_Mk200_F", 350],
-	["Zafir LMG", "LMG_Zafir_F", 400]
+	["Mk200 LMG", "LMG_Mk200_F", 650],
+	["Zafir LMG", "LMG_Zafir_F", 700]
 ];
 
 shotgunArray = compileFinal str
@@ -166,19 +166,19 @@ ammoArray = compileFinal str
 	["6.5mm 100Rnd Tracer (Red) Belt Case", "100Rnd_65x39_caseless_mag_Tracer", 50],
 	["6.5mm 200Rnd Belt Case", "200Rnd_65x39_cased_Box", 150],
 	["6.5mm 200Rnd Tracer (Green) Belt Case", "200Rnd_65x39_cased_Box_Tracer", 125],
-	["7.62mm 10Rnd Mag", "10Rnd_762x51_Mag", 15],
-	["7.62mm 20Rnd Mag", "20Rnd_762x51_Mag", 25],
+	["7.62mm 10Rnd Mag", "10Rnd_762x51_Mag", 100],
+	["7.62mm 20Rnd Mag", "20Rnd_762x51_Mag", 120],
 	["7.62mm 150Rnd Box", "150Rnd_762x51_Box", 150],
 	["7.62mm 150Rnd Tracer (Green) Box", "150Rnd_762x51_Box_Tracer", 125],
-	[".408 7Rnd Cheetah Mag", "7Rnd_408_Mag", 50],
-	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 50],
-	["12.7mm 5Rnd APDS Mag", "5Rnd_127x108_APDS_Mag", 60],
-	["RPG-42 AT Rocket", "RPG32_F", 250],              // Direct damage: high   | Splash damage: low    | Guidance: none
-	["RPG-42 HE Rocket", "RPG32_HE_F", 250],           // Direct damage: medium | Splash damage: medium | Guidance: none
-	["PCML Missile", "NLAW_F", 350],                   // Direct damage: high   | Splash damage: low    | Guidance: laser, land vehicles
-	["Titan AT Missile", "Titan_AT", 350],             // Direct damage: high   | Splash damage: low    | Guidance: mouse, laser, land vehicles
-	["Titan Antipersonnel Missile", "Titan_AP", 350],  // Direct damage: low    | Splash damage: high   | Guidance: mouse, laser
-	["Titan AA Missile", "Titan_AA", 350],             // Direct damage: low    | Splash damage: high   | Guidance: aircraft
+	[".408 7Rnd Cheetah Mag", "7Rnd_408_Mag", 150],
+	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 150],
+	["12.7mm 5Rnd APDS Mag", "5Rnd_127x108_APDS_Mag", 160],
+	["RPG-42 AT Rocket", "RPG32_F", 450],              // Direct damage: high   | Splash damage: low    | Guidance: none
+	["RPG-42 HE Rocket", "RPG32_HE_F", 450],           // Direct damage: medium | Splash damage: medium | Guidance: none
+	["PCML Missile", "NLAW_F", 450],                   // Direct damage: high   | Splash damage: low    | Guidance: laser, land vehicles
+	["Titan AT Missile", "Titan_AT", 650],             // Direct damage: high   | Splash damage: low    | Guidance: mouse, laser, land vehicles
+	["Titan Antipersonnel Missile", "Titan_AP", 550],  // Direct damage: low    | Splash damage: high   | Guidance: mouse, laser
+	["Titan AA Missile", "Titan_AA", 650],             // Direct damage: low    | Splash damage: high   | Guidance: aircraft
 	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 125],
 	["40mm 3Rnd HE Grenades", "3Rnd_HE_Grenade_shell", 250],
 	["40mm Smoke Round (White)", "1Rnd_Smoke_Grenade_shell", 50],
@@ -211,12 +211,12 @@ ammoArray = compileFinal str
 //Text name, classname, buy cost, item class
 accessoriesArray = compileFinal str
 [
-	["Suppressor 9mm", "muzzle_snds_L", 50, "item"],
-	["Suppressor .45 ACP", "muzzle_snds_acp", 75, "item"],
-	["Suppressor 5.56mm", "muzzle_snds_M", 100, "item"],
-	["Suppressor 6.5mm", "muzzle_snds_H", 100, "item"],
-	["Suppressor 6.5mm LMG", "muzzle_snds_H_MG", 125, "item"],
-	["Suppressor 7.62mm", "muzzle_snds_B", 125, "item"],
+	["Suppressor 9mm", "muzzle_snds_L", 125, "item"],
+	["Suppressor .45 ACP", "muzzle_snds_acp", 150, "item"],
+	["Suppressor 5.56mm", "muzzle_snds_M", 300, "item"],
+	["Suppressor 6.5mm", "muzzle_snds_H", 300, "item"],
+	["Suppressor 6.5mm LMG", "muzzle_snds_H_MG", 300, "item"],
+	["Suppressor 7.62mm", "muzzle_snds_B", 300, "item"],
 	["Flashlight", "acc_flashlight", 25, "item"],
 	["IR Laser Pointer", "acc_pointer_IR", 25, "item"],
 	["Yorris Sight (Zubr Revolver)", "optic_Yorris", 50, "item"],
@@ -226,16 +226,16 @@ accessoriesArray = compileFinal str
 	["ACO (Red)", "optic_Aco", 75, "item"],
 	["ACO (Green)", "optic_Aco_grn", 75, "item"],
 	["Holosight", "optic_Holosight", 75, "item"],
-	["MRCO", "optic_MRCO", 100, "item"],
-	["ARCO", "optic_Arco", 125, "item"],
-	["RCO", "optic_Hamr", 150, "item"],
-	["DMS", "optic_DMS", 175, "item"],
-	["LRPS", "optic_LRPS", 175, "item"],
-	["SOS", "optic_SOS", 200, "item"],
-	["NVS", "optic_NVS", 400, "item"],
-	["TWS", "optic_tws", 600, "item"],
-	["TWS MG", "optic_tws_mg", 650, "item"],
-	["Nightstalker", "optic_Nightstalker", 750, "item"]
+	["MRCO", "optic_MRCO", 500, "item"],
+	["ARCO", "optic_Arco", 525, "item"],
+	["RCO", "optic_Hamr", 550, "item"],
+	["DMS", "optic_DMS", 1500, "item"],
+	["LRPS", "optic_LRPS", 1550, "item"],
+	["SOS", "optic_SOS", 1560, "item"],
+	["NVS", "optic_NVS", 1200, "item"],
+	//["TWS", "optic_tws", 600, "item"],
+	//["TWS MG", "optic_tws_mg", 650, "item"],
+	["Nightstalker", "optic_Nightstalker", 1250, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
@@ -337,12 +337,12 @@ headArray = compileFinal str
 
 uniformArray = compileFinal str
 [
-	["Ghillie Suit (NATO)", "U_B_GhillieSuit", 300, "uni"],
-	["Ghillie Suit (CSAT)", "U_O_GhillieSuit", 300, "uni"],
-	["Ghillie Suit (AAF)", "U_I_GhillieSuit", 300, "uni"],
-	["Wetsuit (NATO)", "U_B_Wetsuit", 200, "uni"],
-	["Wetsuit (CSAT)", "U_O_Wetsuit", 200, "uni"],
-	["Wetsuit (AAF)", "U_I_Wetsuit", 200, "uni"],
+	["Ghillie Suit (NATO)", "U_B_GhillieSuit", 800, "uni"],
+	["Ghillie Suit (CSAT)", "U_O_GhillieSuit", 800, "uni"],
+	["Ghillie Suit (AAF)", "U_I_GhillieSuit", 800, "uni"],
+	["Wetsuit (NATO)", "U_B_Wetsuit", 700, "uni"],
+	["Wetsuit (CSAT)", "U_O_Wetsuit", 700, "uni"],
+	["Wetsuit (AAF)", "U_I_Wetsuit", 700, "uni"],
 	["Default Uniform (NATO)", "U_B_CombatUniform_mcam", 50, "uni"],
 	["Default Uniform (CSAT)", "U_O_CombatUniform_ocamo", 50, "uni"],
 	["Default Uniform (AAF)", "U_I_CombatUniform", 50, "uni"],
@@ -398,9 +398,9 @@ uniformArray = compileFinal str
 
 vestArray = compileFinal str
 [
-	["Rebreather (NATO)", "V_RebreatherB", 200, "vest"],
-	["Rebreather (CSAT)", "V_RebreatherIR", 200, "vest"],
-	["Rebreather (AAF)", "V_RebreatherIA", 200, "vest"],
+	["Rebreather (NATO)", "V_RebreatherB", 400, "vest"],
+	["Rebreather (CSAT)", "V_RebreatherIR", 400, "vest"],
+	["Rebreather (AAF)", "V_RebreatherIA", 400, "vest"],
 	["Carrier Lite (Green)", "V_PlateCarrier1_rgr", -1, "vest"],
 	["Carrier Lite (Black)", "V_PlateCarrier1_blk", -1, "vest"],
 	["Carrier Rig (Green)", "V_PlateCarrier3_rgr", -1, "vest"],
@@ -463,12 +463,12 @@ backpackArray = compileFinal str
 
 genItemArray = compileFinal str
 [
-	["Quadrotor UAV (NATO)", "B_UAV_01_backpack_F", 500, "backpack"],
-	["Quadrotor UAV (CSAT)", "O_UAV_01_backpack_F", 500, "backpack"],
-	["Quadrotor UAV (AAF)", "I_UAV_01_backpack_F", 500, "backpack"],
-	["UAV Terminal (NATO)", "B_UavTerminal", 150, "item"],
-	["UAV Terminal (CSAT)", "O_UavTerminal", 150, "item"],
-	["UAV Terminal (AAF)", "I_UavTerminal", 150, "item"],
+	["Quadrotor UAV (NATO)", "B_UAV_01_backpack_F", 700, "backpack"],
+	["Quadrotor UAV (CSAT)", "O_UAV_01_backpack_F", 700, "backpack"],
+	["Quadrotor UAV (AAF)", "I_UAV_01_backpack_F", 700, "backpack"],
+	["UAV Terminal (NATO)", "B_UavTerminal", 250, "item"],
+	["UAV Terminal (CSAT)", "O_UavTerminal", 250, "item"],
+	["UAV Terminal (AAF)", "I_UavTerminal", 250, "item"],
 	["GPS", "ItemGPS", 100, "item"],
 	["First Aid Kit", "FirstAidKit", 25, "item"],
 	["Medikit", "Medikit", 150, "item"],
@@ -477,8 +477,8 @@ genItemArray = compileFinal str
 	["NV Goggles", "NVGoggles", 100, "nvg"],
 	["Diving Goggles", "G_Diving", 100, "gogg"],
 	["Binoculars", "Binocular", 50, "binoc"],
-	["Rangefinder", "Rangefinder", 150, "binoc"],   
-	["Laser Designator", "Laserdesignator", 200, "binoc"],
+	["Rangefinder", "Rangefinder", 250, "binoc"],   
+	["Laser Designator", "Laserdesignator", 300, "binoc"],
 	["Laser Batteries", "Laserbatteries", 20, "mag"],
 	["Chemlight (Blue)", "Chemlight_blue", 25, "mag"],
 	["Chemlight (Green)", "Chemlight_green", 25, "mag"],

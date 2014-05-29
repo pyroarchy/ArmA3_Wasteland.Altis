@@ -21,7 +21,7 @@ _boxList =
 ];
 
 {
-	if (random 1 < 0.50) then // 50% chance of box spawning at each town
+	if (random 1 < 0.25) then // 25% chance of box spawning at each town
 	{
 		_pos = getMarkerPos (_x select 0);
 		_boxClass = _boxList call BIS_fnc_selectRandom;
