@@ -18,8 +18,8 @@ class Header
 	minPlayers=1;
 	maxPlayers=108;
 };
-author="A3Wasteland.com & edited by pippen";
-onLoadName = "A3Wasteland Altis Custom Edit";
+author="Team Wasteland - A3Wasteland.com";
+onLoadName = "A3Wasteland Altis";
 onLoadMission = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
 overviewText = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
 overviewTextLocked = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";

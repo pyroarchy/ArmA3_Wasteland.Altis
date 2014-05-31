@@ -64,10 +64,10 @@ mediumMilitaryVehicles =
 //	"I_Truck_02_Fuel_F",
 	"O_Truck_02_Fuel_F",
 //	"I_Truck_02_medical_F",
-	"O_Truck_02_medical_F"
-//	"B_MRAP_01_F",
-//	"O_MRAP_02_F",
-//	"I_MRAP_03_F"
+	"O_Truck_02_medical_F",
+	"B_MRAP_01_F",
+	"O_MRAP_02_F",
+	"I_MRAP_03_F"
 ];
 
 //Water Vehicles - Random Spawns
@@ -202,7 +202,7 @@ vehicleAddition =
 	"muzzle_snds_B", // 7.62mm
 	"muzzle_snds_acp", // .45 ACP
 	"optic_Arco",
-//	"optic_SOS",
+	"optic_SOS",
 	"optic_Hamr",
 	"optic_Aco",
 	"optic_ACO_grn",
